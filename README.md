@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ldml77.github.io/rsschool-cv/cv
