@@ -1,7 +1,7 @@
 # Liudmyla Murzina
 ## Contact Information
-* Email: ludmilamurzina@gmail.com
-* Phone: 12403506303
+* Email:
+* Phone: 
 * Telegram: Liudmyla Murzina
 * GiHub: ldml77
 ## About me
