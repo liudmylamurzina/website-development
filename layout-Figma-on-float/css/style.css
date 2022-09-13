@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
-}	
+}
+
 .body {
 	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 	font-style: normal;  
@@ -16,8 +17,11 @@
 }
 
 .container {
-	width: 1110px;
+	max-width: 1200px;
+	/*width:1110px*/
+	min-width: 991px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
  .additional-menu {
@@ -32,6 +36,7 @@
 	list-style: none;
 	
 }
+
 .additional-menu-list li {
 	padding-left: 30px;
 	float:right;
@@ -62,13 +67,17 @@
 	border-color:#34547A ;
 }
 
+.img-responsive {
+	max-width: 100%;
+}
+
 .contact {
 	float: right;
 	padding-top: 20px;
 }
 
 .phone {
-	padding-right: 53px;
+	padding-right: 43px;
 	font-size: 16px;
 	line-height: 19px;
 	color: #000000;
@@ -135,7 +144,7 @@
 }
 
 .armchair-text {
-	width: 555px ;
+	width: 50% ;
 	float: left;
 	padding-top: 148px;
 	padding-bottom: 197px;
@@ -180,7 +189,8 @@
 .armchair-img {
 	float:left;
 	padding-left: 30px;
-	background: #F13C6E;	
+	background: #F13C6E;
+	padding-top: 14px;	
 }	
 
 .proposition {
@@ -199,19 +209,23 @@
 }
 		
 .proposition-items {	
-	background: #EFEFEF;	
+	/*background: #EFEFEF;*/	
 	font-size:0;
-}	
+	margin: 0 -15px;
+}
 
-.proposition-img {	
+.proposition-items-wrap {
 	vertical-align: top;
 	display: inline-block;
-	width: 255px;	
-	text-align: center;
+	width: 25%;
+	padding: 0 15px;
+}
+
+.proposition-img {	
+		text-align: center;
 	padding: 25px 20px 25px 20px;
 	font-size: 14px;
-	margin-right: 30px;
-	margin-bottom: 30px;
+		margin-bottom: 30px;
 	background: #FFFFFF;	
 }		
 
@@ -220,7 +234,7 @@
 }	
 
 .proposition-img:hover {	
-	background: #F13C6E ;
+	border: 2px solid #F13C6E;
 }	
 
 .proposition-p {	
@@ -272,15 +286,23 @@
 }		
 
 .categories-items {		
-	font-size: 0;
 	border-bottom: 1px solid #EFEFEF;		
-}	
+}		
 
-.popul-categ {
+.categ-items-popul {
+	font-size: 0;
+	margin: 0 -15px;
+}
+
+.popul-categ-wrap {
 	vertical-align: top;
 	display: inline-block;
-	width: 255px;
-	margin:0 30px 0 0;
+	width: 25%;
+	padding: 0 15px;
+}
+
+.popul-categ {
+		font-size: 16px;
 }	
 
 .categories-items-heading {		
@@ -299,20 +321,22 @@
 }		
 
 .categories-inventories-p {		
-	padding-bottom: 47px;	
+	padding-bottom: 50px;	
 	font-size: 12px;		
 	line-height: 28px;	
-	color: #828282;	
-}		
+	color: #828282;
+	padding-top: 26px;
+}	
+
+.categ-inv-list {
+	margin: 0;	
+	padding-left: 0;
+	list-style: none;
+}
 	
 .categ-inv-p {		
 	margin-top: 0;	
 	margin-bottom: 0;	
-}		
-
-.categ-inv-p-first {		
-	margin-top: 25px;	
-	margin-bottom: 0;
 }		
 
 .no-margin {		
@@ -379,8 +403,9 @@
 	text-align: right;	
 	text-decoration: none;
 	font-size: 12px;
-line-height: 14px;
-color: #828282;	
+	line-height: 14px;
+	color: #828282;
+	padding-left: 20px;	
 }
 
 .foot-right-a:hover {
