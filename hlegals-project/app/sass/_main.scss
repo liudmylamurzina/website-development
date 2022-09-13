@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+.body {
+	font-family: "tt_norms", "Arial", "Helvetica", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	background-color: $white;
+}
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: $blue;
+    &:hover {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: $red;
+    }
+}
+.container {
+	min-width: 335px;
+    max-width: 1360px;
+    padding: 0 20px;
+	margin: 0 auto;
+}
+
+.top-bg {
+    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+

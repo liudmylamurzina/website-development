@@ -1,0 +1,121 @@
+.slider {
+	display: flex;
+	flex-direction: column;
+	padding: 35px 0 44px 0;
+}
+.slider__menu-mob a {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: $red;
+	text-decoration: none;
+}
+.slider__text {
+	color: $white;
+	padding-top: 10px;
+	padding-bottom: 11px;
+}
+.slider__text-title {
+	font-size: 22px;
+	line-height: 26px;
+}
+.slider__text-text {
+	font-size: 18px;
+	line-height: 26px;
+	padding-top: 15px;
+	/*padding-bottom: 20px;*/
+}
+.slider__menu-list {
+	display: none;
+}
+.slider__btn {
+	display: flex;
+	padding-left: 0;
+	align-self: center;
+
+}
+.slider__btn li {
+	margin-right: 7px;
+	margin-left: 7px;
+	list-style: none;
+}
+.slider__btn-btn {
+	padding: 8px 8px;
+	border-radius: 50%;
+	background: $blue;
+	opacity: 0.2;
+	border: none;
+}
+.active {
+	opacity: 1;
+}
+@media (min-width:768px) {
+	.slider {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.slider__menu-mob, .slider__btn {
+		display: none;
+	}
+	.slider__menu {
+		display: flex;
+		flex-direction: column;
+		width: 43%;
+		/*border-right: 4px solid $separ-grey;
+		padding-right: 40px;*/
+	 }
+	.slider__menu-list {
+		display: flex;
+		flex-direction: column;
+	 }
+	 .slider__menu-list a {
+		font-size: 20px;
+		line-height: 40px;
+		text-align: right;
+		color: $grey-dark;
+		text-decoration: none;
+	 }
+	 .slider__menu-list a:hover {
+		 color: $red;
+	}
+	 .slider__menu-list li {
+		 list-style: none;
+		 text-align: right;
+		 border-right: 4px solid $separ-grey;
+		 padding-right: 40px;
+	 }
+	 .slider__menu-list li:hover {
+		border-color: $red;
+	 }
+	.slider__text {
+		width: 57%;
+		padding-left: 40px;
+	}
+	.slider__text-title {
+		font-size: 20px;
+		line-height: 20px;
+	}
+}
+@media (min-width:992px) {
+	.slider {
+		padding-top: 56px;
+		padding-bottom: 92px;
+	}
+	.slider__menu-list a {
+		font-size: 42px;
+		line-height: 50px;
+	}
+	.slider__text {
+		padding-top: 42px;
+	}
+	.slider__text-title {
+		font-size: 32px;
+		line-height: 38px;
+	}
+	.slider__text-text {
+		font-size: 21px;
+		line-height: 30px;
+	}
+}

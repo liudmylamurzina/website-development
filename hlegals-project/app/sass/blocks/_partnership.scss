@@ -1,0 +1,141 @@
+.partnership {
+	text-align: center;
+}
+.partnership__blocks {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+
+}
+.partnership__title {
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: $purple-main;
+	padding-bottom: 29px;
+}
+.block {
+	min-height: 90px;
+	width: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.partnership__blocks-1 {
+	background-image: url("../img/block1.png");
+	background-color: $bg-block1;
+}
+.partnership__blocks-2 {
+	background-color: $bg-block2;
+	background-image: url("../img/block2.png");
+}
+.partnership__blocks-3 {
+	background-color: $bg-block3;
+	background-image: url("../img/block3.svg");
+
+}
+.partnership__blocks-4 {
+	background-color: $bg-block4;
+	background-image: url("../img/block4.png");
+}
+.partnership__blocks-5 {
+	background-color: $bg-block5;
+	background-image: url("../img/block5.svg");
+}
+.partnership__blocks-6 {
+	background-color: $bg-block6;
+	background-image: url("../img/block6.svg");
+}
+.partnership__blocks-7 {
+	background-color: $bg-block7;
+	background-image: url("../img/block7.svg");
+}
+.partnership__blocks-8 {
+	background-color: $bg-block8;
+	background-image: url("../img/block8png.png");
+}
+.partnership__blocks-9 {
+	background-color: $bg-block9;
+	background-image: url("../img/block9.png");
+}
+.partnership__blocks-10 {
+	background-color: $bg-block10;
+	background-image: url("../img/block10.svg");
+}
+.partnership__blocks-11 {
+	background-color: $bg-block11;
+	background-image: url("../img/block11.png");
+}
+.partnership__blocks-12 {
+	background-color: $bg-block12;
+	background-image: url("../img/block12.png");
+}
+@media (min-width:768px) {
+	.block {
+		 width: 33.333%;
+	}
+}
+@media (min-width:992px) {
+	.partnership {
+		padding-top: 10px;
+	}
+	.block {
+		width: 25%;
+		min-height: 120px;
+	}
+	.partnership__blocks-1 {
+		background-image: url("../img/block1-desk.png");
+		background-color: $bg-block1;
+	}
+	.partnership__blocks-2 {
+		background-color: $bg-block2;
+		background-image: url("../img/block2-desk.png");
+	}
+	.partnership__blocks-3 {
+		background-color: $bg-block3;
+		background-image: url("../img/block3-desk.svg");
+
+	}
+	.partnership__blocks-4 {
+		background-color: $bg-block4;
+		background-image: url("../img/block4-desk.png");
+	}
+	.partnership__blocks-5 {
+		background-color: $bg-block5;
+		background-image: url("../img/block5-desk.svg");
+	}
+	.partnership__blocks-6 {
+		background-color: $bg-block6;
+		background-image: url("../img/block6-desk.svg");
+	}
+	.partnership__blocks-7 {
+		background-color: $bg-block7;
+		background-image: url("../img/block7-desk.svg");
+	}
+	.partnership__blocks-8 {
+		background-color: $bg-block8;
+		background-image: url("../img/block8-desk.png");
+	}
+	.partnership__blocks-9 {
+		background-color: $bg-block9;
+		background-image: url("../img/block9-desk.png");
+	}
+	.partnership__blocks-10 {
+		background-color: $bg-block10;
+		background-image: url("../img/block10-desk.svg");
+	}
+	.partnership__blocks-11 {
+		background-color: $bg-block11;
+		background-image: url("../img/block11-desk.png");
+	}
+	.partnership__blocks-12 {
+		background-color: $bg-block12;
+		background-image: url("../img/block12-desk.png");
+	}
+}
+
+
+
+
